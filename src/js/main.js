@@ -4,6 +4,8 @@ import Counter from './counter.jsx';
 import MyCounter from './mycounter.jsx';
 import BasicExample from './basic-example.jsx';
 
+require('../scss/app.scss');
+
 class Main extends React.Component {
   render() {
     return (
